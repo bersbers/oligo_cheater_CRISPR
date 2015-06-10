@@ -1,6 +1,6 @@
 #read in the sequence
 
-sequence = raw_input(Enter your sequence:)
+sequence = raw_input("Enter your sequence: ")
 
 # remove PAM sequence
 
