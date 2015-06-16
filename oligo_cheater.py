@@ -8,6 +8,8 @@ print(sequence)
 
 # remove PAM sequence
 
+trim_seq = sequence[:-3]
+print trim_seq
 
 # add TA to 5' end
 
