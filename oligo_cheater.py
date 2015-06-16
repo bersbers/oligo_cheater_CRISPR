@@ -4,12 +4,12 @@
 #read in the sequence
 
 sequence = raw_input("Enter your sequence: ")
-print(sequence)
+print 'your target sequence: '+ (sequence)
 
 # remove PAM sequence
 
 trim_seq = sequence[:-3]
-print trim_seq
+print 'trimmed sequence: '+ (trim_seq)
 
 # add TA to 5' end
 
