@@ -4,17 +4,17 @@
 #read in the sequence
 
 sequence = raw_input("Enter your sequence: ")
-print 'your target sequence: '+ (sequence)
+print "your target sequence: "+ sequence
 
 # remove PAM sequence
 
 trim_seq = sequence[:-3]
-print 'trimmed sequence: '+ (trim_seq)
+print "trimmed sequence: "+ trim_seq
 
 # add TA to 5' end
 
 oligo1 = "TA" + trim_seq 
-print 'oligo 1: ' + (oligo1)
+print "oligo 1: " + oligo1
 
 
 # remove GG 
