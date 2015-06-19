@@ -22,7 +22,13 @@ print "oligo 1: " + oligo1
 trim2 = trim_seq[2:]
 print trim2
 
-# reverse complement
+# reverse trim2
+
+rev_trim2= trim2[::-1]
+print rev_trim2 
+
+
+#complement
 
 
 # add AAAC to the 5' end
