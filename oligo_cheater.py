@@ -30,6 +30,9 @@ print rev_trim2
 
 #complement
 
+compl = rev_trim2.replace('A', r'T').replace('C', r'G').replace('T',r'A').replace('G',r'C')
+print compl
+
 
 # add AAAC to the 5' end
 
