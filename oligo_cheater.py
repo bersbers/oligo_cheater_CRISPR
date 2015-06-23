@@ -30,9 +30,11 @@ print rev_trim2
 
 #complement
 
-compl = rev_trim2.replace('A', r'T').replace('C', r'G').replace('T',r'A').replace('G',r'C')
-print compl
+DNA = {'A':'T', 'C':'G', 'T':'A', 'G':'C'}
 
+for i, j in DNA.iteritems():
+      rev_compl = rev_trim2.replace(i, j)
+print rev_compl   
 
 # add AAAC to the 5' end
 
